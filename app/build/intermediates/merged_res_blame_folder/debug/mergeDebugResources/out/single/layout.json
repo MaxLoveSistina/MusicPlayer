@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.musicplayer.app-mergeDebugResources-50:/layout/fragment_player.xml",
+        "source": "com.musicplayer.app-main-53:/layout/fragment_player.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-mergeDebugResources-50:/layout/activity_main.xml",
+        "source": "com.musicplayer.app-main-53:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-mergeDebugResources-50:/layout/item_song.xml",
+        "source": "com.musicplayer.app-main-53:/layout/item_song.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-mergeDebugResources-50:/layout/fragment_playlist.xml",
+        "source": "com.musicplayer.app-main-53:/layout/fragment_playlist.xml"
+    }
+]

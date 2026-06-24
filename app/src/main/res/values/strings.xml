@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="no_song_playing">No Song Playing</string>
+    <string name="no_songs_found">No songs found on this device.\nGrant storage permission to load music.</string>
+    <string name="no_results">No results found</string>
+    <string name="no_favorites">No favorites yet.\nTap the heart icon to add songs.</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="songs">Songs</string>
+    <string name="favorites">Favorites</string>
+    <string name="player">Player</string>
+    <string name="permission_required">Storage permission is required to load music</string>
+</resources>

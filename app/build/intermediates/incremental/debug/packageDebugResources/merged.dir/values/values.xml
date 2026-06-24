@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="color" name="colorBackground"/>
+    <color name="accent_glow">#C77DFF40</color>
+    <color name="accent_primary">#C77DFF</color>
+    <color name="accent_secondary">#9D4EDD</color>
+    <color name="accent_tertiary">#7B2FBE</color>
+    <color name="bg_card">#252530</color>
+    <color name="bg_elevated">#1E1E24</color>
+    <color name="bg_primary">#0D0D0F</color>
+    <color name="bg_surface">#141418</color>
+    <color name="divider_color">#1E1E24</color>
+    <color name="nav_selected">#C77DFF</color>
+    <color name="nav_unselected">#555566</color>
+    <color name="ripple_color">#C77DFF30</color>
+    <color name="text_primary">#F0F0F5</color>
+    <color name="text_secondary">#9999AA</color>
+    <color name="text_tertiary">#555566</color>
+    <string name="app_name">Music Player</string>
+    <string name="favorites">Favorites</string>
+    <string name="no_favorites">No favorites yet.\nTap the heart icon to add songs.</string>
+    <string name="no_results">No results found</string>
+    <string name="no_song_playing">No Song Playing</string>
+    <string name="no_songs_found">No songs found on this device.\nGrant storage permission to load music.</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="permission_required">Storage permission is required to load music</string>
+    <string name="player">Player</string>
+    <string name="songs">Songs</string>
+    <style name="Theme.MusicPlayer" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/accent_primary</item>
+        <item name="colorOnPrimary">@color/bg_primary</item>
+        <item name="colorPrimaryContainer">@color/accent_tertiary</item>
+        <item name="colorOnPrimaryContainer">@color/text_primary</item>
+        <item name="colorSecondary">@color/accent_secondary</item>
+        <item name="colorSurface">@color/bg_surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorBackground">@color/bg_primary</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="android:colorBackground">@color/bg_primary</item>
+        <item name="android:statusBarColor">@color/bg_primary</item>
+        <item name="android:navigationBarColor">@color/bg_surface</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="rippleColor">@color/ripple_color</item>
+        <item name="bottomNavigationStyle">@style/Widget.MusicPlayer.BottomNavigationView</item>
+    </style>
+    <style name="Widget.MusicPlayer.BottomNavActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/accent_glow</item>
+    </style>
+    <style name="Widget.MusicPlayer.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="android:background">@color/bg_surface</item>
+        <item name="itemIconTint">@color/nav_item_color</item>
+        <item name="itemTextColor">@color/nav_item_color</item>
+        <item name="itemActiveIndicatorStyle">@style/Widget.MusicPlayer.BottomNavActiveIndicator</item>
+    </style>
+</resources>
